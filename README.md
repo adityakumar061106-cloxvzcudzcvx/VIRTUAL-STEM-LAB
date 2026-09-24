@@ -98,3 +98,36 @@ For example:
 Voltage = 10 V
 Resistance = 5 Ω
 Current = 2 A
+
+
+============================SYSTEM ARCHITECTURE===================================
+
+                    ┌─────────────────────────┐
+                    │     Virtual STEM Lab    │
+                    └────────────┬────────────┘
+                                 │
+                ┌────────────────┴────────────────┐
+                │                                 │
+        ┌───────▼────────┐               ┌────────▼────────┐
+        │    Frontend    │               │     Backend     │
+        │                │               │                 │
+        │ React          │               │ FastAPI         │
+        │ TypeScript     │◄─────────────►│ Python          │
+        │ Tailwind CSS   │     REST      │ Uvicorn         │
+        │ Three.js       │     API       │                 │
+        └───────┬────────┘               └────────┬────────┘
+                │                                 │
+                │                         ┌───────▼────────┐
+                │                         │   PostgreSQL   │
+                │                         │    Planned     │
+                │                         └────────────────┘
+                │
+        ┌───────▼─────────────┐
+        │ Interactive Learning│
+        │                     │
+        │ Experiments         │
+        │ Courses             │
+        │ My Lab              │
+        │ Progress            │
+        │ Assignments         │
+        └─────────────────────┘
