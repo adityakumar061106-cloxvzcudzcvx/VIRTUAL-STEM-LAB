@@ -94,13 +94,13 @@ The platform calculates current using:
 
 For example:
 
-```text
+text
 Voltage = 10 V
 Resistance = 5 Ω
 Current = 2 A
 
-
-============================SYSTEM ARCHITECTURE===================================
+  
+## SYSTEM ARCHITECTURE
 
                     ┌─────────────────────────┐
                     │     Virtual STEM Lab    │
