@@ -131,3 +131,61 @@ Current = 2 A
         │ Progress            │
         │ Assignments         │
         └─────────────────────┘
+
+
+=================================PROJECT STRUCTURE===========================================
+
+VIRTUAL-STEM-LAB/
+│
+├── Api/
+│
+├── Backend/
+│   ├── main.py
+│   ├── .venv/
+│   └── ...
+│
+├── Database/
+│
+├── Docs/
+│
+├── Frontend/
+│   │
+│   ├── public/
+│   │   └── images/
+│   │       ├── labs/
+│   │       ├── experiments/
+│   │       └── hero/
+│   │
+│   ├── src/
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── StatCard.tsx
+│   │   │   ├── ExperimentCard.tsx
+│   │   │   ├── OhmLawScene.tsx
+│   │   │   └── BackendStatus.tsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Experiments.tsx
+│   │   │   ├── Progress.tsx
+│   │   │   ├── OhmsLaw.tsx
+│   │   │   └── MyLab.tsx
+│   │   │
+│   │   ├── api.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   ├── index.css
+│   │   └── vite-env.d.ts
+│   │
+│   ├── index.html
+│   ├── package.json
+│   ├── tsconfig.app.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+│
+├── Simulations/
+│
+├── .gitignore
+├── docker-compose.yml
+└── README.md
