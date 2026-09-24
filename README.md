@@ -133,7 +133,7 @@ Current = 2 A
         │ Assignments         │
         └─────────────────────┘
 
-
+---
 
 
 ### 4. Copyright and Ownership Notice
