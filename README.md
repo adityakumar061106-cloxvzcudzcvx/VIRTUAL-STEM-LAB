@@ -189,3 +189,22 @@ VIRTUAL-STEM-LAB/
 ├── .gitignore
 ├── docker-compose.yml
 └── README.md
+
+
+Copyright and Ownership Notice
+
+
+Copyright © 2026 Aditya Kumar / STEM-VIRTUAL-LAB. All rights reserved.
+
+This is a client-based private project and is the exclusive property of the owner. No part of this website, design, code, content, assets, structure, branding, or documentation may be copied, reproduced, modified, distributed, reused, sold, sublicensed, or republished without explicit written consent from the owner.
+
+The following are strictly prohibited without prior written permission:
+
+Copying or cloning the project
+Reusing the code or design
+Modifying the website for another business or person
+Redistributing or publishing the project publicly
+Using any part of the project for commercial or personal benefit without approval
+This project is not open-source and must not be treated as free to reuse.
+
+If you want to use, adapt, or repurpose this project in any way, you must first obtain written permission from the owner.
