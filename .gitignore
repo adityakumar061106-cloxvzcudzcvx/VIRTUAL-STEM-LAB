@@ -1,0 +1,56 @@
+# ==============================
+# Frontend
+# ==============================
+
+Frontend/node_modules/
+Frontend/dist/
+
+# Frontend environment files
+Frontend/.env
+Frontend/.env.*
+
+# ==============================
+# Backend
+# ==============================
+
+Backend/.venv/
+Backend/__pycache__/
+Backend/*.pyc
+
+# Backend environment files
+Backend/.env
+Backend/.env.*
+
+# ==============================
+# Python
+# ==============================
+
+*.pyc
+*.pyo
+__pycache__/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# OS generated files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
