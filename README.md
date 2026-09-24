@@ -135,7 +135,7 @@ Current = 2 A
 
 
 
-### Copyright and Ownership Notice
+### 4. Copyright and Ownership Notice
 
 Copyright © 2026 Aditya Kumar / STEM-VIRTUAL-LAB. All rights reserved.
 
