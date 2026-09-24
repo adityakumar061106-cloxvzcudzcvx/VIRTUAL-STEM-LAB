@@ -99,6 +99,7 @@ Voltage = 10 V
 Resistance = 5 Ω
 Current = 2 A
 
+---
   
 ### 3. SYSTEM ARCHITECTURE
 
