@@ -190,7 +190,7 @@ VIRTUAL-STEM-LAB/
 ├── docker-compose.yml
 └── README.md
 
-# Copyright and Ownership Notice
+### Copyright and Ownership Notice
 
 Copyright © 2026 Aditya Kumar / STEM-VIRTUAL-LAB. All rights reserved.
 
