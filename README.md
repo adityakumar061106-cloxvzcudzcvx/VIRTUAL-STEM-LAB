@@ -100,7 +100,7 @@ Resistance = 5 Ω
 Current = 2 A
 
   
-## SYSTEM ARCHITECTURE
+### 3. SYSTEM ARCHITECTURE
 
                     ┌─────────────────────────┐
                     │     Virtual STEM Lab    │
