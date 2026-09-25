@@ -5,6 +5,7 @@ import Experiments from "./pages/Experiments";
 import Progress from "./pages/Progress";
 import OhmsLaw from "./pages/OhmsLaw";
 import Courses from "./pages/Courses";
+import MyLab from "./pages/MyLab";
 
 function App() {
   return (
@@ -23,15 +24,13 @@ function App() {
       {/* Courses */}
       <Route path="/courses" element={<Courses />} />
 
+      {/* My Lab */}
+      <Route path="/my-lab" element={<MyLab />} />
+
       {/* Progress */}
       <Route path="/progress" element={<Progress />} />
 
       {/* Future Pages */}
-      <Route
-        path="/my-lab"
-        element={<Navigate to="/courses" replace />}
-      />
-
       <Route
         path="/assignments"
         element={<Navigate to="/courses" replace />}
